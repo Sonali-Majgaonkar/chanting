@@ -5,7 +5,7 @@ const resetBtn = document.getElementById('resetBtn');
 let countNum = 0;
 
 const counter = ()=>{
-    if(countNum <= 108){
+    if(countNum < 108){
         console.log(countNum);
         count.innerHTML = `${++countNum}`
     }
